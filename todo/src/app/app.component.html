@@ -1,0 +1,15 @@
+<div style = "text-align:center">  
+  <h1>
+    {{ title }}
+  </h1>
+  <input type="number" name="num1" [(ngModel)]="num1">
+  <input type="number" name="num2" [(ngModel)]="num2">
+  <br>
+  <button (click)="adicionar()">ADICIONAR</button>
+  <button (click)="subtrair()">SUBTRAIR</button>
+  <button (click)="multiplica()">MULTIPLICA</button>
+  <button (click)="dividir()">DIVIDIR</button>
+  <h3>Resultado : {{num3}}</h3>
+
+
+</div>
